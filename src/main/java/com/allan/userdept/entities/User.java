@@ -22,7 +22,7 @@ public class User {
 	private String email;
 
 	@ManyToOne
-	@JoinColumn(name = "department_id")
+	@JoinColumn(name = "departament_id")
 	private Departament departament;
 
 	public User() {

@@ -10,7 +10,7 @@ import lombok.Getter;
 
 @Getter
 @Entity
-@Table(name = "tb_department")
+@Table(name = "tb_departament")
 public class Departament {
 
 	@Id
